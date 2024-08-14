@@ -10,9 +10,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatNativeDateModule } from '@angular/material/core';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
-  declarations: [AppComponent, MaterialComponent],
+  declarations: [AppComponent, MaterialComponent, TestComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
